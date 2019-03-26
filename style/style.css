@@ -1,0 +1,81 @@
+.list-group {
+  list-style-position: inside;
+}
+
+.list-group a .list-group-item {
+  margin: 0 0 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.list-group a .list-group-item:hover {
+  border-width: 2px;
+  border-radius: 100px;
+  margin: 1px 0px 6px 0px;
+
+  -moz-transition: all .6s;
+  -o-transition: all .6s;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.list-group-item .item-categories {
+  color: gray;
+  float: right;
+  min-width: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.input-group {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.input-group .input-text, .input-group .input-group-content, .input-group .input-image {
+  margin: 0 0 15px 0;
+  resize: vertical;
+  width: 100%;
+}
+
+.input-group .input-text, .input-group .input-group-content {
+  border: 1px solid #e0e0e0;
+  padding-left: 10px;
+}
+
+.input-group .input-group-content {
+  height: 150px;
+}
+
+.input-group h5 {
+  color: #3d3d3d;
+}
+
+.right {
+  position: relative;
+  z-index: 1;
+}
+
+body .modal {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  display: block;
+}
